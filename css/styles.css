@@ -1,0 +1,154 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+
+
+/************   YourApp Header   *************/
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 4%;
+	max-height: 50px;
+	width: 100%;
+	background-color: #7477BF;
+
+}
+
+.YourApp {
+	margin-left: 1em;
+	color: #FFFFFF;
+	flex-grow: 2;
+}
+
+.bell {
+	width: 35px;
+	margin-right: 15px;
+	border-style: none solid none none;
+	border-width: thin;
+	padding-right: 10px;
+}
+
+.bell:hover {
+	cursor: pointer;
+}
+
+.user {
+	margin-right: 20px;
+	color: #FFFFFF;
+	padding-left: 10px;
+}
+
+.user:hover {
+	cursor: pointer;
+}
+
+/*********** Nav on the left side *********/
+
+.nav {
+	display: flex;
+	flex-direction: column;
+	width: 4%;
+	min-height: 100vh;
+	background-color: #4D4C72;
+	margin: 0;
+}
+
+.icons {
+	width: 60%;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.icons:hover {
+	cursor: pointer;
+}
+
+/******  Dashboard & Searchbox  *************/
+
+.dashboard {
+	display: flex;
+	align-items: center;
+	background-color: #FBFBFB;
+	width: 96%;
+	margin-left: 4%;
+	margin-top: -49.75%;
+	margin-bottom: 2.5em;
+}
+
+.dash {
+	padding-left: 1em;
+	padding-right: 1em;
+	border-style: none solid none none;
+	border-width: thin;
+	border-color: #e5e3e3;
+}
+
+.searchbox {
+	width: 25%;
+	height: 2em;
+	border-color: #DBDBDB;
+	border-radius: 6px;
+	margin-left: 68%;
+}
+
+
+/*******   Alert message     ********/
+
+.alert {
+	display: inline-block;
+	margin-top: -48%;
+	margin-left: 5%;
+	margin-bottom: 1em;
+	width: 94%;
+	background-color: #7377BF;
+	border-radius: 5px;
+	color: #FFFFFF;
+
+}
+
+.alert p {
+	display: inline-block;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 85%;
+}
+
+.X {
+	display: inline-block;
+	width: 2%;
+	padding-left: 9%;
+}
+
+.X:hover {
+	cursor: pointer;
+}
+
+
+/********  Traffic chart  ***********/	
+
+#trafficChart {
+	max-width: 94%;
+	max-height: 400px;
+	position: absolute;
+	margin-left: 5%;
+}
+
+
+
+/********  Daily Traffic ********/
+
+#dailyTraffic {
+	width: 40%;
+
+}
+
+/********* Mobiles Users *********/
+
+#mobileUsers {
+	width: 40%;
+
+}
+

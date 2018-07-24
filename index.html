@@ -1,16 +1,57 @@
 <!doctype html>
 <html lang="en" >
 
-<head></head>
-
-
-
-
+<head>
+	<meta charset="utf-8">
+    <title>Web App Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<link href="css/normalize.css" rel="stylesheet"> 
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="javascript/Chart.bundle.js"></script>
+</head>
 <body>
 	
+	<div class="header">
+	
+		<p class="YourApp"><b>Your</b>App™</p>
+		
+		<a class="bell">
+		<img src="icons/icon-bell.svg" alt="Bell Logo">
+		</a>
+
+		<div class="user">Josh Sullivan</div>
+
+	</div>
+
+	<nav class="nav">	
+		<a class="icons" id="dashboard"><img src="icons/icon-dashboard.svg"></a>
+		<a class="icons" id="members"><img src="icons/icon-members.svg"></a>
+		<a class="icons" id="visit"><img src="icons/icon-visits.svg"></a>
+		<a class="icons" id="settings"><img src="icons/icon-settings.svg"></a>
+
+	</nav>
+
+	<div class="dashboard">
+		<div class="dash"><p>Dashboard</p></div>
+		<input class="searchbox" type="text" placeholder="   Search..">
+	</div>
+
+	<div class="alert">
+		<p><b>Alert</b>  Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor.</p>
+		<a class="X"><p><b>X</b></p></a>
+	</div>
+
+	<canvas id="trafficChart" width="1600" height="400"></canvas>
+
+	<canvas id="dailyTraffic" width="400" height="400"></canvas>
+
+	<canvas id="mobileUsers" width="400" height="400"></canvas>
 
 
+
+
+
+
+	<script src="javascript/javascript.js"></script> 
 </body>
-
-
 </html>
